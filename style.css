@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+body{
+    color: white;
+    background-color: #0d1117;
+    font-family:monospace,monospace;
+}
+
+.top-bar{
+    display: flex; 
+    justify-content: left;
+}
+.define-margin{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.top-options{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+
+.middle-section{
+    height: 400px;
+    
+}
+
+.auto-type{
+    color: yellow;
+}
+
+.lower-section{
+    font-size: 1rem;
+    display: flex; 
+    justify-content: flex-start;
+}
+
+#lower-left{
+    width: 700px;
+}
+
+#lower-right{
+    margin-left: 100px;
+}
+
+.contact-me{
+    display: flex;
+    justify-content: start;
+    margin-top: 15px;
+    columns: white;
+    text-decoration: none;
+
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
